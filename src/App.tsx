@@ -1,11 +1,7 @@
-import Button from "./components/common/Button";
+import Router from "./Router";
 
 function App() {
-  return (
-    <div>
-      <Button>hi</Button>
-    </div>
-  );
+  return <Router />;
 }
 
 export default App;
